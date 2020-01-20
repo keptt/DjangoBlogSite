@@ -11,13 +11,23 @@ body {
   ul {
     margin: 0;
   }
+
+
+  main {
+    /* position: relative; */
+    background: white;
+    /* padding: 2em; */
+    border-top: 2em solid white;
+    border-right: 4em solid white;
+    border-left: 4em solid white;
+  }
   
   .bg-steel {
     background-color: #4d6bf5;
   }
 
   .navbar-expand-md {
-    height: 6%;
+    height: 7.5%;
   }
 
   .navbar-brand {
@@ -39,9 +49,11 @@ body {
   .list-group .active 
   {
     /* background-color: #DCDCDC;  */
+    /* position: relative; */
     background-color: #F0F0F0;
     color: black;
     border-color: white;
+    cursor: pointer;
   }
 
 
@@ -52,18 +64,23 @@ body {
 
   .page-footer {
     background: #eeeff1;
+    width: 100%;
   }
+  
+  /* .content-section {
+    overflow: hidden;
+  } */
 
 
   .content-section {
     background: #ffffff;
-    padding: 10px 20px;
+    padding: 20px 20px;
     /* border: 1px solid #dddddd; */
     /* border-radius: 3px; */
     position: -webkit-sticky;
     position: sticky;
-    top: -1%;
-    margin-bottom: 20px;
+    top: 10%;
+    /* margin-bottom: 20px; */
   }
   
   .article-title {
